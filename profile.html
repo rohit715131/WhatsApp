@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Non IE Browsers -->
+    <![if !IE]>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+    <![endif]>
+    <!-- IE -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/ico" />
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- Google Fonts -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Josefin+Slab|Lekton" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>WhatsApp Web</title>
+
+    <style type="text/css">
+        body {
+            /*for footer*/
+            margin-bottom: 30px;
+        }
+        html {
+            /*light greyish background*/
+            background-color: #e9ecef;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container-fluid" style="height: 100%;">
+        
+        <div class="row">
+            <!-- header-->
+            <div class="col-12 d-flex bg-success text-white py-0 px-1 px-md-2 border border-secondary border-bottom-0">
+                <!-- back button -->
+                <div class="back-button ml-2">
+                    <a class="navbar-brand" href="index.html" title="Back">
+                        <i class="fas fa-arrow-left"></i>
+                    </a>
+                </div>
+                <div class="d-flex align-items-center h5 mb-0 nav-name">
+                    <p class="mb-0">WhatsApp</p>
+                </div>
+
+            </div>
+            <!-- End of header -->
+        </div>
+
+    </div>
+
+    <div class="jumbotron py-3 pb-0 mb-0">
+        <div class="row">
+            <div class="col-12 col-md-5 my-2 clear-fix">
+                <div style="max-width: 400px;" class="mx-auto do-wrapper">
+                    <a href="#" data-toggle="modal" data-target="#dp-modal"><img src="img/rohit.jpg" class="img-fluid rounded-circle" style=""></a>
+                    <div class="mt-4">
+                        <input class="btn btn-outline-success btn-block" type="button" id="get-file" value="Change Photo">
+                        <input type="file" id="my-file" class="d-none" name="">
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col my-2">
+                <div>
+                    <span class="my-size-d3 h2 font-weight-normal">
+                        Rohit Kumar
+                        <small class="ml-1 text-muted float-right">
+                            <a href="#"><i class="far fa-edit"></i></a>
+                        </small>
+                    </span>
+                </div>
+                <hr class="my-4">
+                <!-- <span class="h5 font-weight-normal">About:</span> -->
+                <div>
+                    <span class="my-size-d3 h5 font-weight-normal">
+                        About: 
+                        <small class="ml-1 text-muted float-right">
+                            <a href="#"><i class="far fa-edit"></i></a>
+                        </small>
+                    </span>
+                </div>
+                <p class="lead">I'm learning a lot about myself being alone, and doing what I'm doing.  </p>
+                <hr>
+                <p class="lead">+91 9654732998</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="dp-modal" tabindex="-1" role="dialog" aria-labelledby="dp-modal-label" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content text-white bg-dark">
+          <div class="modal-header my-0 py-1">
+            <span>My Photo</span>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span class="text-white" aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body text-center">
+                <img src="img/rohit.jpg" class="img-fluid"/>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer bg-success">
+        <div class="container text-center">
+            <span class="text-white"><small>&copy; No rights reserved.</small></span>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        document.getElementById('get-file').onclick = function() {
+            document.getElementById('my-file').click();
+        };
+    </script>
+</body>
+
+</html>

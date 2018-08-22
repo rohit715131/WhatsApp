@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Non IE Browsers -->
+    <![if !IE]>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+    <![endif]>
+    <!-- IE -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/ico" />
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- Google Fonts -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Josefin+Slab|Lekton" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Message Details</title>
+</head>
+
+<body  style="height: 100vh;">
+    <div class="container-fluid" style="height: 100%;">
+        <div class="row" style="height: 100%;">
+            <div class="col-md-12 right-body px-0 px-md-5 bg-dark" style="height: 100%;">
+                <div class="d-flex flex-column">
+                    <!-- Contact header and other options -->
+                    <div class="d-flex bg-success text-white border border-secondary px-1 px-md-3">
+                        <div class="profile-pic">
+                            <a class="navbar-brand" href="#">
+                                <img class="rounded-circle" src="img/bonee.jpg" style="width: 50px;">
+                            </a>
+                        </div>
+                        <div class="d-flex align-items-center h5 mb-0">
+                            <p class="mb-0">Bonee</p>
+                        </div>
+                        <ul class="list-unstyled list-inline ml-auto my-auto nav-icons h5">
+                            <li class="list-inline-item mr-2 mr-sm-3"><a href="#" title="Search"><i class="fas fa-search"></i></a></li>
+                            <li class="list-inline-item mr-2 mr-sm-3"><a href="#" title="Attachment"><i class="fas fa-paperclip"></i></a></li>
+                            <li class="list-inline-item mr-2 mr-sm-3">
+                                
+                                <div class="dropdown">
+                                    <a href="#" class="dropdown-toggle" id="nav-dropdown-menu" data-toggle="dropdown" title="More Options">
+                                        <i class="fas fa-ellipsis-h"></i>
+                                    </a>
+                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="nav-dropdown-menu">
+                                        <a class="dropdown-item disabled" href="#">View Contact</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item disabled" href="#">Mute Notifications</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item disabled" href="#">Block</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item disabled" href="#">Clear Chat</a>
+                                    </div>
+                                </div>
+
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- end of contact info -->
+                    
+                </div>
+
+                <div id="message-body-id" class="message-body" style="height: calc(100% - 135px);">
+                    <div class="px-3 py-3">
+                        <div class="m-received">
+                            <div class="message">
+                                <p>Hi! You there?</p>
+                                <div class="msg-timestamp d-flex flex-nowrap"><small class="text-muted">07:48</small class="text-muted"></div>
+                            </div>
+                        </div>
+                        <div class="m-sent clearfix">
+                            <div class="message float-right">
+                                <p>Yes</p>
+                                <div class="msg-timestamp d-flex flex-nowrap">
+                                    <small class="text-muted"><i class="fas fa-check-double"></i> 08:00</small class="text-muted">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="m-received">
+                            <div class="message">
+                                <p>which place</p>
+                                <div class="msg-timestamp d-flex flex-nowrap"><small class="text-muted">09:50</small class="text-muted"></div>
+                            </div>
+                        </div>
+                        <div class="m-sent clearfix">
+                            <div class="message float-right">
+                                <p>Bangalore</p>
+                                <div class="msg-timestamp d-flex flex-nowrap">
+                                    <small class="text-muted"><i class="fas fa-check-double"></i> 09:58</small class="text-muted">
+                                </div>
+                            </div>
+                        </div>
+                       
+                        <div class="m-received">
+                            <div class="message">
+                                <p>How are you?</p>
+                                <div class="msg-timestamp d-flex flex-nowrap"><small class="text-muted">10:09</small class="text-muted"></div>
+                            </div>
+                        </div>
+                        <div class="m-sent clearfix">
+                            <div class="message float-right">
+                                <p>I'm alright. What about you?</p>
+                                <div class="msg-timestamp d-flex flex-nowrap">
+                                    <small class="text-muted"><i class="fas fa-check-double"></i> 10:10</small class="text-muted">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="m-received">
+                            <div class="message">
+                                <p>What are you doing now</p>
+                                <div class="msg-timestamp d-flex flex-nowrap"><small class="text-muted">10:11</small class="text-muted"></div>
+                            </div>
+                        </div>
+                        <div class="m-sent clearfix">
+                            <div class="message float-right">
+                                <p>I am making website</p>
+                                <div class="msg-timestamp d-flex flex-nowrap">
+                                    <small class="text-muted"><i class="fas fa-check-double"></i> 10:11</small class="text-muted">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="m-received">
+                            <div class="message">
+                                <p>That's great. Which technology</p>
+                                <div class="msg-timestamp d-flex flex-nowrap"><small class="text-muted">10:11</small class="text-muted"></div>
+                            </div>
+                        </div>
+                        <div class="m-sent clearfix">
+                            <div class="message float-right">
+                                <p>MEAN STACK </p>
+                                <div class="msg-timestamp d-flex flex-nowrap">
+                                    <small class="text-muted"><i class="fas fa-check-double text-primary"></i> 23:12</small class="text-muted">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Send text bar at bottom -->
+                <div class="d-flex bg-light py-3 border border-secondary">
+                    <div class="col-1 mb-0 h4 d-flex align-items-center justify-content-center">
+                        <a href="#"><span><i class="fas fa-smile"></i></span></a>
+                    </div>
+                    <div class="input-group md-form form-sm form-2 pl-0">
+                        <input class="form-control my-0 py-1 red-border" type="text" placeholder="Type to send" aria-label="Search">
+                        <div class="input-group-append">
+                            <span class="input-group-text red lighten-3" id="basic-text1"><i class="fas fa-play"></i></span>
+                        </div>
+                    </div>
+                    <div class="col-1 mb-0 h4 d-flex align-items-center justify-content-center">
+                        <a href="#"><span><i class="fas fa-microphone"></i></span></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
